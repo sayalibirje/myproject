@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <!meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Gym</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="gym.css">
+	<!link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+	
+</head>
+<body align="center">
+			<nav>
+			<!img src="logo.jpg" alt="Gym Logo" class="logo">
+			<h1 >FITNESS GYM</h1>
+                <ul >
+                    <li><a href="#home" style="color:yellow">Home</a></li>
+                    <li><a href="#about" style="color:yellow">About</a></li>
+                    <li><a href="#classes" style="color:yellow">Classes</a></li>
+                    <li><a href="#videos" style="color:yellow">Videos</a></li>
+                    <li><a href="#contact" style="color:yellow">Contact</a></li>
+                </ul>
+            </nav>
+
+    <section id="home">
+        
+        <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="homepage.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="hero-content">
+        <p>Welcome to Fitness Gym</p>
+        <h1>Build your strength, improve your health, and stay fit with us.</h1>
+        <a href="#about" class="cta-button">Learn More</a>
+    </div>
+		<!img src="gymhome.jpg" alt="Gym Workout" class="full-width">
+    </section>
+
+    <section id="about">
+        <h2 style="color:yellow;">About Us</h2>
+        <p>Fitness Gym is dedicated to helping you achieve your fitness goals. Join our community today!</p>
+		<p>Welcome to Fitness Gym, where fitness meets community! Our mission is to empower individuals of all fitness levels to achieve their goals, transform their lives, and embrace a healthier lifestyle.  
+
+At Fitness Gym, we provide a state-of-the-art facility equipped with cutting-edge equipment, dynamic workout programs, and expert trainers committed to guiding and motivating you every step of the way. Whether you’re here to build strength, improve endurance, or simply feel better in your own skin, we have the tools and support you need to succeed.  
+
+More than just a gym, we’re a vibrant community. From group fitness classes to personal training and wellness resources, we create an environment where members can connect, challenge themselves, and celebrate progress.Join us and discover what’s possible when you take that first step toward becoming the best version of yourself. At Fitness Gym, your journey to fitness starts here!</p>
+        <img src="about.jpeg" alt="About Us" class="full-width">
+    </section>
+
+    <section id="classes">
+        <h2 style="color:yellow">Our Classes</h2>
+        <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Class Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="time-slot">6:00 AM - 7:00 AM</td>
+                    <td class="class-name">Yoga</td>
+                    <td class="class-description">A session of calming stretches, poses, and meditation to start your day right.</td>
+                </tr>
+                <tr>
+                    <td class="time-slot">7:30 AM - 8:30 AM</td>
+                    <td class="class-name">Spinning</td>
+                    <td class="class-description">High-energy cycling workout to boost your stamina and burn calories.</td>
+                </tr>
+                <tr>
+                    <td class="time-slot">9:00 AM - 10:00 AM</td>
+                    <td class="class-name">Strength Training</td>
+                    <td class="class-description">A full-body workout focusing on building muscle strength using weights and resistance.</td>
+                </tr>
+                <tr>
+                    <td class="time-slot">10:30 AM - 11:30 AM</td>
+                    <td class="class-name">Pilates</td>
+                    <td class="class-description">Core-focused exercises that improve flexibility, balance, and posture.</td>
+                </tr>
+                <tr>
+                    <td class="time-slot">12:00 PM - 1:00 PM</td>
+                    <td class="class-name">Cardio Blast</td>
+                    <td class="class-description">An intense cardio session with a mix of high-energy exercises like jumping jacks, sprints, and more.</td>
+                </tr>
+                <tr>
+                    <td class="time-slot">1:30 PM - 2:30 PM</td>
+                    <td class="class-name">Zumba</td>
+                    <td class="class-description">Dance to energetic music for a fun way to burn calories.</td>
+                </tr>
+                <tr>
+                    <td class="time-slot">3:00 PM - 4:00 PM</td>
+                    <td class="class-name">HIIT</td>
+                    <td class="class-description">High-Intensity Interval Training: short bursts of intense activity followed by rest.</td>
+                </tr>
+                <tr>
+                    <td class="time-slot">4:30 PM - 5:30 PM</td>
+                    <td class="class-name">Body Pump</td>
+                    <td class="class-description">A barbell workout targeting all major muscle groups with a mix of strength and endurance.</td>
+                </tr>
+                <tr>
+                    <td class="time-slot">6:00 PM - 7:00 PM</td>
+                    <td class="class-name">CrossFit</td>
+                    <td class="class-description">High-intensity workout focusing on strength, endurance, and agility.</td>
+                </tr>
+                <tr>
+                    <td class="time-slot">7:30 PM - 8:30 PM</td>
+                    <td class="class-name">Meditation & Stretching</td>
+                    <td class="class-description">A relaxing session of deep stretching and guided meditation to unwind.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </section>
+
+    <section id="videos">
+        <h1 style="color:yellow">Workout Videos</h1>
+        <div class="videos">
+            <iframe width="560" height="315" src="gym1.mp4" type="video/mp4" title="Workout Video 1" ></iframe>
+            <iframe width="560" height="315" src="gym2.mp4" type="video/mp4" title="Workout Video 2" ></iframe>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 style="color:yellow">Contact Us</h2>
+        <form id="contactForm" action="contact.php" method="POST">
+		
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+			<button type="reset" value="clear">Clear</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fitness Gym. All Rights Reserved.</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

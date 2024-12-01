@@ -103,7 +103,28 @@ form {
     flex-direction: column;
     gap: 10px;
 }
+.membership-plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
+.plan {
+    background-color:white;
+    padding: 20px;
+    border-radius: 8px;
+	color:black;
+}
+
+.plan h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
 form input, form textarea, form button {
     padding: 10px;
     font-size: 16px;
